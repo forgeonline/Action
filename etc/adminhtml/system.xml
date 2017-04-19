@@ -7,12 +7,12 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Config/etc/system_file.xsd">
     <system>
-		<tab id="forgeaction" translate="label" sortOrder="200">
-			<label>Forgeonline Action</label>
+		<tab id="forge" translate="label" sortOrder="200">
+			<label>Forge</label>
 		</tab>
-        <section id="config" translate="label" type="text" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>Forgeonline Configuration</label>
-            <tab>forgeaction</tab>
+        <section id="forgeaction" translate="label" type="text" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Forge</label>
+            <tab>forge</tab>
             <resource>Forgeonline_Action::config_action</resource>
             <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General Options</label>
