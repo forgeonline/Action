@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright © 2016 Forgeonline. All rights reserved.
+ * Copyright © 2016 forgeonline. All rights reserved.
  * See COPYING.txt for license details.
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-	<tab id="forge" translate="label" sortOrder="200">
-		<label>Forge</label>
-	</tab>
+        <tab id="forge" translate="label" sortOrder="300">
+            <label>Forge</label>
+        </tab>
         <section id="forgeaction" translate="label" type="text" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Forge</label>
             <tab>forge</tab>
